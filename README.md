@@ -1,7 +1,7 @@
 # Get Started with the Project
 
 ```bash
-yar
+yarn
 cp .env.example .env
 yarn dev --https
 ```
