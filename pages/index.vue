@@ -1,3 +1,3 @@
 <template>
-    <div class="text-5xl">Hello from Index</div>
+    <div class="text-5xl"><FormInput /></div>
 </template>
