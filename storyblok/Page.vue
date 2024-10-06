@@ -1,10 +1,10 @@
 <script setup>
-const props = {
+const props = defineProps({
     blok: {
         type: Object,
-        default: {},
+        default: () => ({}),
     },
-};
+});
 </script>
 
 <template>
