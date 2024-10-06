@@ -15,6 +15,7 @@
     "dependencies": {
         "@headlessui/vue": "^1.7.23",
         "@heroicons/vue": "^2.1.5",
+        "@storyblok/nuxt": "^6.0.12",
         "nuxt": "^3.13.0",
         "vue": "latest",
         "vue-router": "latest"

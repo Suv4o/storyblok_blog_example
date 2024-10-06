@@ -1233,6 +1233,35 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/merge-streams/-/merge-streams-2.3.0.tgz#719df7fb41766bc143369eaa0dd56d8dc87c9958"
   integrity sha512-LtoMMhxAlorcGhmFYI+LhPgbPZCkgP6ra1YL604EeF6U98pLlQ3iWIGMdWSC+vWmPBWBNgmDBAhnAobLROJmwg==
 
+"@storyblok/js@^3.1.4":
+  version "3.1.6"
+  resolved "https://registry.yarnpkg.com/@storyblok/js/-/js-3.1.6.tgz#4216d1e4bb0492f60bf0b4af18ed33dba8fdfb42"
+  integrity sha512-CF0JMQyR91co95E9/nTwdDEOVrMBT15BV7azXPYYQVNmdUpdnpNoHThzPZpcED4E23lJDLVRnwHTEZ54ytkaGw==
+  dependencies:
+    "@storyblok/richtext" "^2.1.0"
+    storyblok-js-client "^6.10.0"
+
+"@storyblok/nuxt@^6.0.12":
+  version "6.0.12"
+  resolved "https://registry.yarnpkg.com/@storyblok/nuxt/-/nuxt-6.0.12.tgz#465a52775c6a5b575a64f6e269eaac75a08ac79d"
+  integrity sha512-C1qif2Uuklnlbtg1stfUAdsea0gswkBaBvFE+zdDBzB17jHzICsKEnkcBJVGTIc7R0Dv0WLR3p2WbwVGGaKNEg==
+  dependencies:
+    "@storyblok/vue" "^8.1.1"
+
+"@storyblok/richtext@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@storyblok/richtext/-/richtext-2.1.0.tgz#460dcd321951784d6bb748430796bb18ab71a2a5"
+  integrity sha512-hQoZ+mIMuNuFOgjikY8njA29LZ3PMcqINn2Dc4CH9BB+yyYFosiQuIi51CvYoTT/IuslG58FS0/js91/635UUQ==
+  dependencies:
+    consola "^3.2.3"
+
+"@storyblok/vue@^8.1.1":
+  version "8.1.3"
+  resolved "https://registry.yarnpkg.com/@storyblok/vue/-/vue-8.1.3.tgz#a5d084c73366c00576bcad511852e0be36b80d58"
+  integrity sha512-/djRGCi5aO22Z0O0PNniMyNbdxHsvHkoD3J/RTyZjQMpSXOGFPO8SATtdK5VlA03BQMZ3uDlSEK3gClQIqhEnA==
+  dependencies:
+    "@storyblok/js" "^3.1.4"
+
 "@tanstack/virtual-core@3.10.8":
   version "3.10.8"
   resolved "https://registry.yarnpkg.com/@tanstack/virtual-core/-/virtual-core-3.10.8.tgz#975446a667755222f62884c19e5c3c66d959b8b4"
@@ -4562,6 +4591,11 @@ std-env@^3.7.0:
   version "3.7.0"
   resolved "https://registry.yarnpkg.com/std-env/-/std-env-3.7.0.tgz#c9f7386ced6ecf13360b6c6c55b8aaa4ef7481d2"
   integrity sha512-JPbdCEQLj1w5GilpiHAx3qJvFndqybBysA3qUOnznweH4QbNYUsW/ea8QzSrnh0vNsezMMw5bcVool8lM0gwzg==
+
+storyblok-js-client@^6.10.0:
+  version "6.10.0"
+  resolved "https://registry.yarnpkg.com/storyblok-js-client/-/storyblok-js-client-6.10.0.tgz#beed7a79ffe5f8da114da4b6cfa41d1e43af81a3"
+  integrity sha512-epyahXRXNM6EfEXxUo6dZ6Id/zTqYlhDHZGTxaeYmzzRqc1M+ve6nVjFOOhUXcWDtiOvC2WLOoJgYoVGN4PExw==
 
 streamx@^2.15.0:
   version "2.20.1"
